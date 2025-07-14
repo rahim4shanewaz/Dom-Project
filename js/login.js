@@ -16,7 +16,8 @@ document.getElementById('btn-login')
         console.log(pinNumber);
 
         if(phoneNumber === "1111" && pinNumber === "1234"){
-            console.log("loggd in")
+            //console.log("loggd in")
+            window.location.href = '/home.html'
 
         }
         else{
