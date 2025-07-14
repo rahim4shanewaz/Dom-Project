@@ -26,12 +26,21 @@
     <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
       <div class="card-body">
         <fieldset class="fieldset">
+
+
           <label class="label font-bold">Phone number</label>
-          <input type="number" class="input" placeholder="Enter your phone number" />
+          <input id="phone-number"  type="text" class="input" placeholder="Enter 1111" />
+
+
           <label class="label font-bold">Pin</label>
-          <input type="password" class="input" placeholder=" Your Pin" />
+          <input id="pin" type="password" class="input" autocomplete="off" placeholder="Pin is 1234" />
+
           <div><a class="link link-hover">Forgot Pin?</a></div>
-          <button class="btn btn-neutral mt-4">Login</button>
+
+
+          <button id="btn-login" class="btn btn-neutral mt-4">Login</button>
+
+
         </fieldset>
       </div>
     </div>
@@ -43,6 +52,6 @@
 </div>
 
     </main>
-    
+    <script src="/js/login.js"></script>
 </body>
 </html>
